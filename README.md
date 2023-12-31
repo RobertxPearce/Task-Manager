@@ -4,5 +4,6 @@ Implemented a task manager program using C++ that utilizes a linked list data st
 * C++
 * Linked List
 # Closer Look
-![Screenshot](https://github.com/RobertxPearce/Task-Manager/assets/102342225/3698c524-20c2-4b74-9a0c-3ac4f30ea47d)
+![task-manager](https://github.com/RobertxPearce/Task-Manager/assets/102342225/4921e56a-c2bf-4527-a7e7-27d796bd3253)
+
 
