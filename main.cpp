@@ -1,5 +1,3 @@
-/// Maze Solver project using depth-first search and breadth-first search
-/// to develepe a better understanding of graph traversal algorithms.
 /// - Robert Pearce
 
 #include <iostream>
