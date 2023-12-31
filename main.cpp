@@ -93,8 +93,10 @@ int main() {
     int choice;             // Variable for input from user.
     string desc;            // Variable for task description.
     int priority;           // Variable for task priority.
+    string border = "------------------------------";
 
     do {                                            // do while Loop to prompt user and display menu & tasks until user selects to exit.
+        cout << border;
         cout << "\nTask Manager Menu:" << endl;     // Print header.
         cout << "1. Add Task" << endl;              // Print choice to add task.
         cout << "2. Remove Task" << endl;           // Print choice to remove task. 
@@ -102,6 +104,7 @@ int main() {
         cout << "4. Exit" << endl;                  // Print choice to exit task list.
         cout << "Enter your choice: ";              // Prompt user for choice.
         cin >> choice;                              // cin User input.
+        cout << border << endl;
 
         switch (choice) {
             case 1:                                                     // Add a task: Prompt user for description and priority, then add the task.
